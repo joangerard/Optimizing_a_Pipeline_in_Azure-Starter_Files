@@ -1,0 +1,2 @@
+##[error]/azureml-envs/azureml_e2eef3801165a0d7227bc784781a962c/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+##[error]  FutureWarning)
