@@ -2656,3 +2656,18 @@ size of split is: 6846304
 2021-12-08 01:33:26.842 - INFO - 16914 - azureml.train.automl._local_managed_utils.is_docker_installed:354 - Docker is installed with Docker version 20.10.8+azure, build 3967b7d28e15a020e4ee344283128ead633b3e0c
 .
 2021-12-08 01:33:26.852 - INFO - 16914 - azureml.train.automl.automlconfig._start_execution:217 - Submitting remote.
+2021-12-08 02:13:16.978 - INFO - 16914 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2021-12-08 02:13:17.017 - INFO - 16914 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2021-12-08 02:13:17.045 - INFO - 16914 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2021-12-08 02:13:17.164 - INFO - 16914 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=119.35[ms]
+2021-12-08 02:13:17.222 - INFO - 16914 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=204.42[ms]
+2021-12-08 02:13:17.222 - INFO - 16914 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2021-12-08 02:13:18.635 - INFO - 16914 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2021-12-08 02:13:19.266 - INFO - 16914 - azureml.automl.runtime.featurization.data_transformer.__init__:168 - Feature sweeping enabled: False
+2021-12-08 02:13:19.267 - INFO - 16914 - azureml.automl.runtime.featurization.data_transformer.__init__:169 - Feature sweeping timeout: 86400
+2021-12-08 02:13:19.763 - INFO - 16914 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=2540.4[ms]
+2021-12-08 02:13:19.797 - INFO - 16914 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=2819.3[ms]
+2021-12-08 02:17:01.536 - INFO - 16914 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2021-12-08 02:17:01.560 - INFO - 16914 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2021-12-08 02:17:01.728 - INFO - 16914 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=167.92[ms]
+2021-12-08 02:17:02.669 - INFO - 16914 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=1132.41[ms]
